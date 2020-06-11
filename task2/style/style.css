@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    height: 200px;
+   width: 199px;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding-right: 10px;  
+}
+.container div{
+    height: 30%;
+    width: 50px;
+    background-color: blue;
+}
+.container div:nth-child(2){
+    height: 48%;
+}
+
+

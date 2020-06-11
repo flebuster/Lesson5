@@ -1,0 +1,33 @@
+.container {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+.square {
+    width: 55%;
+    height: 55%;
+    background: blue;
+    position: absolute;
+    top: 22.5%;
+    left: 22.5%;
+    z-index: 1;
+}
+.square2 {
+    width: 33%;
+    height: 33%;
+    background: yellow;
+    position: absolute;
+    top: 33%;
+    left: 33%;
+    z-index: 2;
+}
+.square3 {
+    width: 15%;
+    height: 15%;
+    background: red;
+    position: absolute;
+    top: 42%;
+    left: 42%;
+    z-index: 3;
+}

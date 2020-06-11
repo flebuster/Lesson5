@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    height: 150px;
+    width: 50%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container div{
+    height: 60%;
+    width: 10%;
+    background-color: yellow;
+    justify-content: space-around;
+    align-content:space-between;
+ 
+}
+
+.container div:nth-child(1){
+background-color: green;
+}
+
+.container div:nth-child(8){
+flex-basis: 13%;
+}
+
+.container div:nth-child(9){
+background-color: green;
+flex-basis: 100%;
+
+margin-top: 12px;
+}
+
